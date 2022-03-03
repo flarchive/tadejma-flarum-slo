@@ -1,0 +1,28 @@
+{
+    "name": "tadejma/flarum-slo",
+    "type": "flarum-extension",
+    "description": "Slovenian language pack.",
+    "keywords": ["locale"],
+    "license": "MIT",
+    "require": {
+        "flarum/core": "*"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        },
+        "flarum-extension": {
+            "title": "Slovenian",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#00247d",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "sl",
+            "title": "Slovenščina"
+        }
+    }
+}

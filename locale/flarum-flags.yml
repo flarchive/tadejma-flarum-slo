@@ -1,0 +1,61 @@
+flarum-flags:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      flag_posts_label: Označevanje odgovorov
+      view_flags_label: Poglej označene odgovore
+
+    # These translations are used in the Flags Settings modal dialog.
+    settings:
+      guidelines_url_label: Pravila forumua
+      title: Nastavitve označevanja
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the Flag Post modal dialog.
+    flag_post:
+      confirmation_message: Hvala, da ste označili odgovor, skrbniki foruma bodo odgovor preverili.
+      dismiss_button: => core.ref.okay
+      reason_inappropriate_label: Neprimerno
+      reason_inappropriate_text: "Odgovor je neprimeren ali žaliv in krši <a>pravila forumua</a>."
+      reason_off_topic_label: "Off-topic"
+      reason_off_topic_text: Odgovor nima vezne točke s objavo in bi moral biti odstranjen.
+      reason_other_label: Drugo
+      reason_spam_label: Spam
+      reason_spam_text: Odgovor je reklama.
+      submit_button: => flarum-flags.ref.flag_post
+      title: => flarum-flags.ref.flag_post
+
+    # These translations are used by the Flagged Posts dropdown, a.k.a. "the flag".
+    flagged_posts:
+      empty_text: Ni označenih odgovorov
+      item_text: "{username} v <em>{discussion}</em>"
+      title: => flarum-flags.ref.flagged_posts
+      tooltip: => flarum-flags.ref.flagged_posts
+
+    # These translations are used by the frame displayed around flagged posts.
+    post:
+      dismiss_flag_button: Odstrani označbo
+      flagged_by_text: "Označil {username}"
+      flagged_by_with_reason_text: "Označil {username} zaradi {reason}"
+
+    # These translations are used by the post control buttons.
+    post_controls:
+      flag_button: Označi
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    flag_post: Označi odgovor
+    flagged_posts: Označeni odgovori
