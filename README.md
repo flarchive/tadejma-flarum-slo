@@ -2,13 +2,14 @@
 
 > **Read-only archive of released versions of tadejma/flarum-slo.** Not for installation: use [Packagist](https://packagist.org/packages/tadejma/flarum-slo) or the [upstream repository](https://github.com/tadejma/flarum-slo).
 
-**0** versions archived · Latest: [`16`](https://github.com/flarchive/tadejma-flarum-slo/tree/archive/v16) · License: `MIT` · Flarum: `^0.1.0-beta.15`
+**2** versions archived · Latest: [`16`](https://github.com/flarchive/tadejma-flarum-slo/tree/archive/v16) · License: `MIT` · Flarum: `^0.1.0-beta.15`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `16` | 2021-05-10 | `^0.1.0-beta.15` | [Browse](https://github.com/flarchive/tadejma-flarum-slo/tree/archive/v16) |
+| `v1.0` | 2022-03-03 | `*` | [Browse](https://github.com/flarchive/tadejma-flarum-slo/tree/archive/v1.0) |
 
 Catalog entry: [packages/tadejma-flarum-slo.json](https://github.com/flarchive/archive-index/blob/main/packages/tadejma-flarum-slo.json)
 
